@@ -1,0 +1,15 @@
+name: Neo-Bridge
+description: This bridge goes for miles.
+type: ItemBridge
+range: 20
+buildCostMultiplier: 0.1
+transportTime: 0.01
+itemCapacity: 100
+consumes: {
+  power: 4
+}
+requirements: [
+	copper/20
+]
+category: distribution
+research: bridge-conveyor

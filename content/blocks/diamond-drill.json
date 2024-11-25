@@ -1,0 +1,17 @@
+name: Diamond Drill
+description: The drill tip is made of diamond.
+type: Drill
+health: 140
+size: 1
+tier: 5
+buildCostMultiplier: 0.1
+drillTime: 5
+hardnessDrillMultiplier: 0
+itemCapacity: 100
+requirements: [
+	copper/150
+	lead/50
+	graphite/20
+]
+category: production
+research: mechanical-drill

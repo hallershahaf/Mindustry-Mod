@@ -1,0 +1,11 @@
+name: Neo-Conveyor
+description: The latest in conveyor technology, hella fast~
+type: Conveyor
+requirements: [
+	copper/10
+	lead/5
+]
+category: distribution
+speed: 0.75
+displayedSpeed: 45.0
+research: conveyor

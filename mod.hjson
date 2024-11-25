@@ -1,0 +1,8 @@
+name: "shasi-mod"
+displayName: "Shasi's Mod."
+author: ClassyShaC
+description: "Personal mod for personal use"
+version: "0.2"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false

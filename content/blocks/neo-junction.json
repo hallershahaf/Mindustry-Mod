@@ -1,0 +1,11 @@
+name: Neo-Junction
+description: The junction has no latency.
+type: Junction
+speed: 2
+buildCostMultiplier: 0.1
+itemCapacity: 100
+requirements: [
+	copper/20
+]
+category: distribution
+research: junction

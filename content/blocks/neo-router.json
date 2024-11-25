@@ -1,0 +1,11 @@
+name: Neo-Router
+description: The router has no latency.
+type: Router
+speed: 1
+buildCostMultiplier: 0.1
+itemCapacity: 25
+requirements: [
+	copper/35
+]
+category: distribution
+research: router
