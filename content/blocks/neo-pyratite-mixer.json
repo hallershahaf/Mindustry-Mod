@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Neo-Pyratite Mixer
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.1
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      coal/2
+	  lead/4
+	  sand/4
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/50
+  graphite/35
+]
+category: crafting
+research: pyratite-mixer
+outputItem: pyratite/4
