@@ -1,0 +1,16 @@
+name: Neo-Pump
+description: Will suck the crust from the ocean floor.
+type: Pump
+pumpAmount: 12.5
+buildCostMultiplier: 0.1
+consumes: {
+  power: 0.6
+}
+requirements: [
+	copper/150
+	metaglass/150
+	silicon/60
+	titanium/90
+]
+category: liquid
+research: pump

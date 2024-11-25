@@ -6,7 +6,7 @@ buildCostMultiplier: 0.1
 transportTime: 0.01
 itemCapacity: 100
 consumes: {
-  power: 4
+  power: 0.8
 }
 requirements: [
 	copper/20
