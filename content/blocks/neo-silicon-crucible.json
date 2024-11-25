@@ -1,0 +1,29 @@
+type: AttributeCrafter
+name: Neo-Silicon Crucible
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 30
+size: 3
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.1
+craftTime: 90
+consumes: {
+  power: 4
+  items: {
+    items: [
+      sand/12
+	  coal/8
+	  pyratite/2
+    ]
+  }
+}
+requirements: [
+  metaglass/150
+  titanium/300
+  silicon/100
+  plastanium/70
+]
+category: crafting
+research: silicone-crucible
+outputItem: silicon/32
