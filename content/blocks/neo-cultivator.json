@@ -1,0 +1,26 @@
+type: AttributeCrafter
+name: Neo-Cultivator
+description: Uses advance tech to craft more efficiently
+hasItems: true
+hasLiquid: true
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+craftTime: 100
+consumes: {
+  power: 1.5
+  liquids: [
+	water/0.6
+  ]
+}
+attribute: spores
+requirements: [
+  copper/80
+  lead/60
+  silicon/35
+]
+category: crafting
+research: cultivator
+outputItem: spore-pod/8
