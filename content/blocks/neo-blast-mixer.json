@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Neo-Blast Mixer
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+craftTime: 80
+consumes: {
+  power: 0.4
+  items: {
+    items: [
+      pyratite/2
+	  spore-pod/2
+    ]
+  }
+}
+requirements: [
+  lead/80
+  graphite/55
+]
+category: crafting
+research: blast-mixer
+outputItem: blast-compound/4
