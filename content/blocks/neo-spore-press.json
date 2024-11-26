@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Neo-Spore Press
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 120
+size: 2
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+craftTime: 20
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      spore-pod/2
+    ]
+  }
+}
+requirements: [
+  lead/80
+  silicon/60
+  graphite/50
+]
+category: crafting
+research: spore-press
+outputLiquid: oil/1.2
+
