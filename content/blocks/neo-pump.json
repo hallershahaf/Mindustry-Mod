@@ -2,7 +2,9 @@ name: Neo-Pump
 description: Will suck the crust from the ocean floor.
 type: Pump
 pumpAmount: 12.5
+size: 2
 buildCostMultiplier: 0.1
+buildTime: 160
 consumes: {
   power: 0.6
 }
@@ -12,5 +14,6 @@ requirements: [
 	silicon/60
 	titanium/90
 ]
+liquidCapacity: 50
 category: liquid
 research: rotary-pump
