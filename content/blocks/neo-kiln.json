@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Neo-Kiln
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 30
+buildCostMultiplier: 0.1
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+	  lead/2
+	  sand/4
+    ]
+  }
+}
+requirements: [
+  copper/150
+  lead/50
+  graphite/80
+]
+category: crafting
+research: kiln
+outputItem: metaglass/8
