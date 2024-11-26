@@ -25,5 +25,5 @@ requirements: [
   plastanium/70
 ]
 category: crafting
-research: silicone-crucible
+research: silicon-crucible
 outputItem: silicon/32
