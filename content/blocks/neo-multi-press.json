@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Neo-Multi-Press
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 40
+liquidCapacity: 50
+size: 3
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+craftTime: 30
+consumes: {
+  power: 1.8
+  items: {
+    items: [
+		coal/6
+    ]
+  }
+  liquids: [
+	water/0.2
+  ]
+}
+requirements: [
+  lead/200
+  graphite/120
+  titanium/210
+  silicon/75
+]
+category: crafting
+research: multi-press
+outputItem: graphite/8
+
