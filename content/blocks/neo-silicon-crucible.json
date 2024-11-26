@@ -12,8 +12,8 @@ consumes: {
   power: 4
   items: {
     items: [
-      sand/12
 	  coal/8
+      sand/12
 	  pyratite/2
     ]
   }
