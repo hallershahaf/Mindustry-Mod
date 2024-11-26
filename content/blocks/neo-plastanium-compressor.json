@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Neo-Plastanium Compressor
+description: Uses advance tech to craft more efficiently
+hasItems: true
+itemCapacity: 20
+size: 2
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+craftTime: 60
+consumes: {
+  power: 3
+  items: {
+    items: [
+      titanium/4
+    ]
+  }
+  liquids: [
+	oil/0.5
+  ]
+}
+requirements: [
+  lead/240
+  graphite/120
+  titanium/160
+  silicon/160
+]
+category: crafting
+research: plastanium-compressor
+outputItem: plastanium/4
