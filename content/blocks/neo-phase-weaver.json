@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Neo-Plastanium Compressorz
+name: Neo-PhaseWeaver
 description: Uses advance tech to craft more efficiently
 hasItems: true
 itemCapacity: 20
@@ -7,24 +7,21 @@ size: 2
 hasPower: true
 hasItems: true
 buildCostMultiplier: 0.5
-craftTime: 60
+craftTime: 120
 consumes: {
-  power: 3
+  power: 5
   items: {
     items: [
-      titanium/4
+	  thorium/8
+      sand/20
     ]
   }
-  liquids: [
-	oil/0.5
-  ]
 }
 requirements: [
-  lead/240
-  graphite/120
-  titanium/160
-  silicon/160
+  silicon/180
+  lead/180
+  thorium/140
 ]
 category: crafting
-research: plastanium-compressor
-outputItem: plastanium/4
+research: phase-weaver
+outputItem: phase-fabric/4
