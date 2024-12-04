@@ -1,0 +1,20 @@
+name: Neo-Water Extractor
+description: Will suck the crust from the ocean floor.
+type: SolidPump
+pumpAmount: 4.0
+size: 2
+buildCostMultiplier: 0.1
+consumes: {
+  power: 3
+}
+requirements: [
+	metaglass/70
+	graphite/100
+	lead/90
+	copper/80
+]
+rotateSpeed: 1.4
+liquidCapacity: 60
+category: production
+research: water-extractor
+result: water
