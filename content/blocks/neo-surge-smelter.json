@@ -1,27 +1,29 @@
 type: GenericCrafter
-name: Neo-Phase Weaver
+name: Neo-Surge Smelter
 description: Uses advance tech to craft more efficiently
 hasItems: true
 itemCapacity: 20
-size: 2
+size: 3
 hasPower: true
 hasItems: true
 buildCostMultiplier: 0.5
-craftTime: 120
+craftTime: 75
 consumes: {
-  power: 5
+  power: 4
   items: {
     items: [
-	  thorium/8
-      sand/20
+	  copper/6
+	  lead/8
+	  titanium/4
+	  silicon/6
     ]
   }
 }
 requirements: [
-  silicon/180
-  lead/180
-  thorium/140
+  silicon/120
+  lead/140
+  thorium/110
 ]
 category: crafting
-research: phase-weaver
-outputItem: phase-fabric/4
+research: surge-smelter
+outputItem: surge-alloy/4
