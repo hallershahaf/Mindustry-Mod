@@ -1,0 +1,22 @@
+type: MassDriver
+name: Neo-Mass Driver
+description: Peak of distribution technology
+hasItems: true
+itemCapacity: 250
+size: 3
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+consumes: {
+  power: 1.75
+}
+requirements: [
+  titanium/150
+  silicon/100
+  lead/170
+  thorium/110
+]
+reload: 60
+range: 1200
+category: distribution
+research: mass-driver
