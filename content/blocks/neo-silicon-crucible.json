@@ -2,7 +2,7 @@ type: AttributeCrafter
 name: Neo-Silicon Crucible
 description: Uses advance tech to craft more efficiently
 hasItems: true
-itemCapacity: 30
+itemCapacity: 128
 size: 3
 hasPower: true
 hasItems: true
