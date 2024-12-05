@@ -1,0 +1,28 @@
+name: Neo-Oil Extractor
+description: Will suck the crust from the ocean floor.
+type: Fracker
+pumpAmount: 4.0
+size: 3
+buildCostMultiplier: 0.5
+itemUseTime: 60
+consumes: {
+  items: [
+     sand/2
+  ]
+  liquids: [
+	water/0.3
+  ]
+  power: 3
+}
+requirements: [
+	copper/220
+	graphite/240
+	lead/150
+	thorium/130
+	silicon/90
+]
+rotateSpeed: 1.4
+liquidCapacity: 60
+category: production
+research: oil-extractor
+result: oil
