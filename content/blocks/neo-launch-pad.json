@@ -1,0 +1,21 @@
+type: LaunchPad
+name: Neo-Launch Pad
+description: Yeets stuff like no other
+hasItems: true
+itemCapacity: 250
+size: 3
+hasPower: true
+hasItems: true
+buildCostMultiplier: 0.5
+launchTime: 400
+consumes: {
+  power: 4
+}
+requirements: [
+  copper/470
+  silicon/190
+  lead/280
+  titanium/220
+]
+category: effect
+research: launch-pad
