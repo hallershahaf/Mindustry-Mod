@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Neo-Phase Weaver
 description: Uses advance tech to craft more efficiently
 hasItems: true
-itemCapacity: 20
+itemCapacity: 40
 size: 2
 hasPower: true
 hasItems: true
@@ -12,7 +12,7 @@ consumes: {
   power: 5
   items: {
     items: [
-	  thorium/8
+      thorium/8
       sand/20
     ]
   }
